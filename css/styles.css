@@ -249,9 +249,8 @@ body {
   padding-bottom: 94px;
 }
 
-.section.no-padding {
+.section.no-top-padding {
   padding-top: 0;
-  padding-bottom: 0;
 }
 
 .section-title {
@@ -410,6 +409,10 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--primary-white-color);
+}
+
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-address-nav .link {
